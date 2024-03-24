@@ -508,7 +508,7 @@ footer{
     background-color: #012534;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
     .column {
         flex: 1 1 100%;
         max-width: none;
@@ -577,61 +577,62 @@ footer{
     #check:checked ~ .header-navbar-nav {
         left: 0;
     }
-    .banner-titulos{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 35vh; /* Establece la altura deseada para el centrado vertical */
-    }
-    .banner-titulos h1 {
-        font-size: 4.5rem;
-        padding-left: 3%;
-        margin-top: 100px;
-        margin-bottom: 25px;
+    .banner-titulos {
+        width: 100%; /* Ancho deseado */
+        margin: 15vh auto; /* Centra horizontalmente */
+        text-align: left; /* Alinea el texto a la izquierda */
       }
-    
-    .banner-titulos h1,
-    .banner-titulos h3,
-    .banner-titulos p {
-         margin: 0;
-      }
-      .banner-titulos h3 {
-        font-size: 4.5rem;
-        padding-left: 3%;
-        margin-top: 15px;
-      }
-    
+      
+      .banner-titulos h1,
+      .banner-titulos h3,
       .banner-titulos p {
-        font-size: 1.6rem;
-        padding-left: 5%;
-        margin-bottom: 25px;
-        margin-top: 15px;
+        margin: 0; /* Elimina el margen por defecto */
       }
+      
+      .banner-titulos h1 {
+        font-size: 10vw; /* Tamaño de fuente responsivo */
+        margin-top: 20vh; /* Espaciado superior */
+        margin-bottom: 2vh; /* Espaciado inferior */
+      }
+      
+      .banner-titulos h3 {
+        font-size: 10vw; /* Tamaño de fuente responsivo */
+        margin-top: 2vh; /* Espaciado superior */
+        margin-bottom: 2vh; /* Espaciado inferior */
+      }
+      
+      .banner-titulos p {
+        font-size: 2.1vh;/*1.6rem;  Tamaño de fuente fijo */
+        margin-bottom: 2vh; /* Espaciado inferior */
+      }
+      
       .banner-iconos {
+
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         display: flex;
-        position: absolute;
-        text-align: center;
+        justify-content:center; /* Centra horizontalmente */
         align-items: center;
+        gap: 18px; /* Espacio entre los iconos */
+        position: absolute;
         z-index: 9999;
-        gap: 18px;
         background-color: rgba(0, 0, 0, 0.0);
         border-radius: 10px;
-        margin-top: 32vh;  
-        /*left: 32%;*/    
-    }
-    
-    .banner-iconos a {
+        
+      }
+      
+      .banner-iconos a {
         display: flex;
-        margin-bottom: 0px;    
         color: white;
-        font-size: 34px;
+        font-size: 36px;
         border-radius: 5px;
-        /*padding: 8px;*/
         text-align: center;
         align-items: center;
         text-decoration: none; /* Quitar subrayado del enlace */
-        
-    }
+        padding-bottom: 10vh;
+      }
+      
     
     .banner-iconos a:hover {
         color: grey; /* Cambiar color de fondo al pasar el cursor */
