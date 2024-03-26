@@ -578,8 +578,11 @@ footer{
         left: 0;
     }
     .banner-titulos {
-        width: 100%; /* Ancho deseado */
-        margin: 19vh auto; /* Centra horizontalmente */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100vw; /* Ancho deseado */
+        margin: 16vh auto; /* Centra horizontalmente */
         text-align: left; /* Alinea el texto a la izquierda */
       }
       
@@ -587,25 +590,26 @@ footer{
       .banner-titulos h3,
       .banner-titulos p {
         margin: 0; /* Elimina el margen por defecto */
+        text-align: left;
       }
       
       .banner-titulos h1 {
         font-size: 11vw; /* Tamaño de fuente responsivo */
-       /* margin-top: 20vh;  Espaciado superior */
+        margin-top: 0; /* Elimina el margen superior */
         margin-bottom: 2vh; /* Espaciado inferior */
       }
       
       .banner-titulos h3 {
         font-size: 11vw; /* Tamaño de fuente responsivo */
-        text-align: left;
-        margin-top: 2vh; /* Espaciado superior */
+        /*margin-top: 2vh;  Espaciado superior */
         margin-bottom: 2vh; /* Espaciado inferior */
       }
       
       .banner-titulos p {
-        font-size: 2.2vh;/*1.6rem;  Tamaño de fuente fijo */
+        font-size: 2.2vh; /* Tamaño de fuente fijo */
         margin-bottom: 2vh; /* Espaciado inferior */
       }
+      
       
       .banner-iconos {
 
