@@ -584,6 +584,7 @@ footer{
         width: 100vw; /* Ancho deseado */
         margin: 15vh auto; /* Centra horizontalmente */
         text-align: left; /* Alinea el texto a la izquierda */
+        padding-right: 9%;
       }
       
       .banner-titulos h1,
