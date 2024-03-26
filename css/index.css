@@ -582,7 +582,7 @@ footer{
         flex-direction: column;
         align-items: flex-start;
         width: 100vw; /* Ancho deseado */
-        margin: 16vh auto; /* Centra horizontalmente */
+        margin: 15vh auto; /* Centra horizontalmente */
         text-align: left; /* Alinea el texto a la izquierda */
       }
       
