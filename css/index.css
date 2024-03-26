@@ -579,7 +579,7 @@ footer{
     }
     .banner-titulos {
         width: 100%; /* Ancho deseado */
-        margin: 15vh auto; /* Centra horizontalmente */
+        margin: 10vh auto; /* Centra horizontalmente */
         text-align: left; /* Alinea el texto a la izquierda */
       }
       
@@ -590,19 +590,20 @@ footer{
       }
       
       .banner-titulos h1 {
-        font-size: 10vw; /* Tamaño de fuente responsivo */
+        font-size: 11vw; /* Tamaño de fuente responsivo */
         margin-top: 20vh; /* Espaciado superior */
         margin-bottom: 2vh; /* Espaciado inferior */
       }
       
       .banner-titulos h3 {
-        font-size: 10vw; /* Tamaño de fuente responsivo */
+        font-size: 11vw; /* Tamaño de fuente responsivo */
+        text-align: left;
         margin-top: 2vh; /* Espaciado superior */
         margin-bottom: 2vh; /* Espaciado inferior */
       }
       
       .banner-titulos p {
-        font-size: 2.1vh;/*1.6rem;  Tamaño de fuente fijo */
+        font-size: 2.2vh;/*1.6rem;  Tamaño de fuente fijo */
         margin-bottom: 2vh; /* Espaciado inferior */
       }
       
