@@ -579,7 +579,7 @@ footer{
     }
     .banner-titulos {
         width: 100%; /* Ancho deseado */
-        margin: 10vh auto; /* Centra horizontalmente */
+        margin: 19vh auto; /* Centra horizontalmente */
         text-align: left; /* Alinea el texto a la izquierda */
       }
       
@@ -591,7 +591,7 @@ footer{
       
       .banner-titulos h1 {
         font-size: 11vw; /* Tamaño de fuente responsivo */
-        margin-top: 20vh; /* Espaciado superior */
+       /* margin-top: 20vh;  Espaciado superior */
         margin-bottom: 2vh; /* Espaciado inferior */
       }
       
