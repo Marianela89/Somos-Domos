@@ -216,12 +216,10 @@ nav ul li a:hover::after {
 .info-domos {
     width: 100%;
     margin-bottom: 10px;
-    padding: 70px;
+    padding: 20px;
     box-sizing: border-box;
-    padding-top: 105px;/*32%;*/
-     
+    padding-top: 102px;/*32%;*/    
 }
-
 
 .info-domos div {
     width: 100%; 
@@ -232,12 +230,12 @@ nav ul li a:hover::after {
 .info-domos .grid {
     display: flex;
     flex-direction: column;
-  }
+}
 
 .titulo {
     font-family:"Rubik", sans-serif;
     font-weight: 80;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #333;
     text-align: center;
 }
@@ -495,6 +493,37 @@ footer{
 }
 
 @media only screen and (max-width: 900px) {
+
+/*section que es un domo*/
+.info-domos .grid {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    
+     /* Añadido para ocupar todo el ancho del contenedor */
+  }
+
+  .info-domos div {
+    margin-top: 0%;
+  }
+
+  .titulo {
+    font-size: 2.1rem;
+  }
+
+  .descripcion-domo {
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+    margin-top: 40px; /* Espacio entre el subtítulo y la descripción */
+  }
+
+  .img-infodomos {
+    width: 100%; /* Cambiado para ocupar el 100% del contenedor padre */
+    height: auto; /* Ajusta la altura automáticamente */
+  }
+
+
+/*section  */
     .column {
         flex: 1 1 100%;
         max-width: none;
@@ -672,9 +701,7 @@ footer{
       margin-left: 20px; /* Añade espacio entre la imagen y el texto */
     }
 
-    .titulo {
-        
-    }
+ 
 
 
     
