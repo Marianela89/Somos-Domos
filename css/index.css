@@ -212,23 +212,21 @@ nav ul li a:hover::after {
 .chevron{
     visibility: hidden;
 }
-
+/* ---------------SECTION QUE ES UN DOMO--------------*/
 .info-domos {
-    margin-bottom: 50px;
-    padding: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 70px;
     box-sizing: border-box;
-    margin-top: 500px;/*32%;*/
-    padding-bottom: 1px;  
+    padding-top: 105px;/*32%;*/
+     
 }
 
 
 .info-domos div {
-    width: 88%;
-    margin-left: 6%;
+    width: 100%; 
     margin-top: 2%;
-  
-    
-    background-color:beige;
+    background-color:#fff;/*beige;*/
 }
 
 .info-domos .grid {
@@ -245,19 +243,7 @@ nav ul li a:hover::after {
 }
 
 
-.img-infodomos{
-    /*  width: 40vw;
-    height: 60vh;
-   filter: brightness(70%);*/
-   
-}
 
-
-.item-domo{
-    display: grid;
-    flex-direction: column;
-    padding: 1px;
-  }
 
 .descripcion-domo {
   
@@ -581,17 +567,15 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        width: 100vw; /* Ancho deseado */
-        margin: 15vh auto; /* Centra horizontalmente */
+        width: 100%; /* Ancho deseado */
+        margin: 20vh auto; /* Centra horizontalmente */
         text-align: left; /* Alinea el texto a la izquierda */
-        padding-right: 9%;
       }
       
       .banner-titulos h1,
       .banner-titulos h3,
       .banner-titulos p {
         margin: 0; /* Elimina el margen por defecto */
-        text-align: left;
       }
       
       .banner-titulos h1 {
@@ -602,7 +586,7 @@ footer{
       
       .banner-titulos h3 {
         font-size: 11vw; /* Tamaño de fuente responsivo */
-        /*margin-top: 2vh;  Espaciado superior */
+       /* margin-top: 2vh;  Espaciado superior */
         margin-bottom: 2vh; /* Espaciado inferior */
       }
       
