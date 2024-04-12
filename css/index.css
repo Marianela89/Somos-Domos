@@ -268,7 +268,7 @@ nav ul li a:hover::after {
 /*-------------SECTION 3---------------*/
 
 .caracteristicas-domo{
-  background-color: #E5E5E5;  
+  background-color: #fff; 
 }
 
 .caracteristicas-domo div {
@@ -283,29 +283,26 @@ nav ul li a:hover::after {
     color: #333;
 }
 
-.icono{
-    width: 50px;
-    height: 50px;
-    border: solid 1px #333;
-    border-radius:50%;
-    background-size:auto;
-    margin: 0 auto;
-    margin-bottom: 10px;
-}
 
-.subtitulo-domo {
-    font-size: 1.3rem;
+.subtitulo-domo, .subtitulodesc-domo {
+    font-size: 1.5rem;
     font-family:"Rubik", sans-serif;
-    color: #333;
-    padding: 0px;
-    padding-bottom: 9px;
+    color:#fff; /*#333;*/
+    text-align: center;
+   /* padding: 0px;
+    padding-bottom: 9px;*/
 }
-
+.subtitulodesc-domo{
+    display: inline-block;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px; /* Espacio entre el texto y el borde inferior */
+}
 .desc-domo p{
     font-size: 1.2rem;
     font-family:"Rubik", sans-serif; 
-    color: #333;
-    margin-top: 4px;
+    color:#fff;
+    margin-top: 0px;
+    
     padding: 0px;
     text-align: left;
 }
@@ -318,15 +315,35 @@ nav ul li a:hover::after {
 }
 
 /* Estilo base de las tarjetas */
-.tarjeta {
-    background-color: #fff;
+.carousel-inner{
+    background: rgb(1,37,52);
+background: radial-gradient(circle, rgba(1,37,52,1) 0%, rgba(1,29,52,1) 66%);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-    padding: 20px;
-    width: 275px;
-    
+    width: 400px;
+    height: auto;
 }
+.tarjeta{
+    background: rgb(1,37,52);
+    background: radial-gradient(circle, rgba(1,37,52,1) 0%, rgba(1,29,52,1) 66%);
+    border-radius: 10px;
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+    margin: 25px;
+    padding: 35px;
+    width: 500px;
+    height: auto;
+}
+/* Estilo para el contenedor de los diseños */
+.contenedor-flex {
+    display: flex;
+    justify-content: space-between; /* Para que los contenedores estén separados */
+  }
+  
+  /* Estilo para cada contenedor de diseño */
+  .contenedor-diseño {
+    width: calc(50% - 10px); /* 50% del ancho del contenedor padre menos el espacio entre ellos */
+  }
+  
+
 
 
 /*-----------------------------SECTION 4---------------------------------*/
@@ -374,7 +391,6 @@ nav ul li a:hover::after {
     margin-bottom: 50px;
     padding: 20px;
     box-sizing: border-box;
-  
     padding-bottom: 1px;
 }
 
@@ -400,7 +416,7 @@ nav ul li a:hover::after {
 }
 
 .desc-aboutus{
-    width: 40%;
+    width: 50%;
     height: auto;
     margin-right: 10%;
     text-align:left;
@@ -411,6 +427,54 @@ nav ul li a:hover::after {
     font-weight: 100;
     font-size: 1.3rem;
 }
+/* quienes somos card*/
+
+  .container-qs{
+    user-select: none;
+    margin: 30px auto;
+    background: #231e39;
+    color: #b3b8cd;
+    border-radius: 5px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 10px 20px -10px rgba(0,0,0,.75);
+  }
+  .cover-photo{
+    background: url(https://images.unsplash.com/photo-1540228232483-1b64a7024923?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
+    height: 160px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+  }
+  .profile{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 93px 0 0 -175px;
+    border: 1px solid #1f1a32;
+    padding: 7px;
+    background: #292343;
+  }
+  .profile-name{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 27px 0 0 120px;
+  }
+  .about{
+    margin-top: 10px;
+    line-height: 21px;
+  }
+ 
+  .container-qs i{
+    padding-left: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: .5s;
+  }
+  .container-qs i:hover{
+    color: #03bfbc;
+  }
     
 /*-------------FOOTER-----------------------*/
 footer{
@@ -483,14 +547,16 @@ footer{
     
 }
 .desc-footer {
+    font-family: "Rubik", sans-serif;
     border-top: 1.5px solid white; /* Línea blanca encima del desc-footer */ 
     padding-top: 10px; /* Espacio encima de la línea */
     margin: 0; /* Elimina el margen en todos los lados */
     text-align: center; /* Centra el contenido horizontalmente */
-    font-family: sans-serif;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     background-color: #012534;
 }
+
+
 
 @media only screen and (max-width: 900px) {
 
@@ -521,6 +587,10 @@ footer{
     width: 100%; /* Cambiado para ocupar el 100% del contenedor padre */
     height: auto; /* Ajusta la altura automáticamente */
   }
+/*section carasteristicas domo*/
+.titulo-cdomo {
+    font-size: 1.8rem;
+}
 
 
 /*section  */
@@ -674,12 +744,23 @@ footer{
         color: grey; /* Cambiar color de fondo al pasar el cursor */
         text-decoration: none;
     }
-    
+
+    /*parte carrousel tipo domos*/
+    .tarjeta {
+        width: 100%; 
+        max-width: 400px; 
+    }
+    .contenedor-flex {
+        display: block;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .contenedor-diseño {
+        width: calc(100% - 10px); /*50% del ancho del contenedor padre menos el espacio entre ellos */
+        justify-content: center;
+      }
+   /*fin parte carrousel tipo domos*/
 }
-
- 
-
-
 
 
 /*-------------RESPONSIVE-----------------------*/
