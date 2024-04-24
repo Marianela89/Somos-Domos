@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap');
 
 :root {
-	--img: url('img/SomosDomos12.jpeg');
+	--img: url('/img/SomosDomos12.jpeg');
 }
 
 
@@ -17,7 +17,7 @@
     justify-content: center;
     background-size: cover;
     background-position: center center;
-    background-image: var(--img, url('img/SomosDomos12.jpeg'));
+    background-image: var(--img, url('/img/SomosDomos12.jpeg'));
     transition: background 0.5s ease 0s;
     font-family: 'Londrina Solid', cursive;
     position: relative;
@@ -41,7 +41,7 @@
     justify-content: center;
     background-size: cover;
     background-position: center center;
-    background-image: var(--img, url('img/SomosDomos12.jpeg'));
+    background-image: var(--img, url('/img/SomosDomos12.jpeg'));
     transition: background 0.5s ease 0s;
     max-width: 500px;
     max-height: 500px;
@@ -265,43 +265,43 @@ input:last-of-type:checked ~ .content .controls label:last-of-type {
 
 /* IMAGES / THUMBNAILS */
 .carousel-section:has(input#b1:checked), .thumbnails label[for=b1] {
-	--img: url('img/SomosDomos7.jpeg');
+	--img: url('/img/SomosDomos7.jpeg');
 }
 
 .carousel-section:has(input#b2:checked), .thumbnails label[for=b2] {
-	--img: url('img/SomosDomos15.jpeg');
+	--img: url('/img/SomosDomos15.jpeg');
 }
 
 .carousel-section:has(input#b3:checked), .thumbnails label[for=b3] {
-	--img: url('img/SomosDomos17.jpeg');
+	--img: url('/img/SomosDomos17.jpeg');
 }
 
 .carousel-section:has(input#b4:checked), .thumbnails label[for=b4] {
-	--img: url('img/SomosDomos18.jpeg');
+	--img: url('/img/SomosDomos18.jpeg');
 }
 
 .carousel-section:has(input#b5:checked), .thumbnails label[for=b5] {
-	--img: url('img/SomosDomos8.jpeg');
+	--img: url('/img/SomosDomos8.jpeg');
 }
 
 .carousel-section:has(input#b6:checked), .thumbnails label[for=b6] {
-	--img: url('img/SomosDomos10.jpeg');
+	--img: url('/img/SomosDomos10.jpeg');
 }
 
 .carousel-section:has(input#b7:checked), .thumbnails label[for=b7] {
-	--img: url('img/SomosDomos13.jpeg');
+	--img: url('/img/SomosDomos13.jpeg');
 }
 
 .carousel-section:has(input#b8:checked), .thumbnails label[for=b8] {
-	--img: url('img/SomosDomos12.jpeg');
+	--img: url('/img/SomosDomos12.jpeg');
 }
 
 .carousel-section:has(input#b9:checked), .thumbnails label[for=b9] {
-	--img: url('img/SomosDomos3.jpeg');
+	--img: url('/img/SomosDomos3.jpeg');
 }
 
 .carousel-section:has(input#b10:checked), .thumbnails label[for=b10] {
-	--img: url('img/SomosDomos16.jpeg');
+	--img: url('/img/SomosDomos16.jpeg');
 }
 
 .thumbnails label:before { display: none; }
