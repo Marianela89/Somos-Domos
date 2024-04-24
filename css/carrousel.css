@@ -9,8 +9,8 @@
 .carousel-section {
     margin: 0;
     padding: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 98.8vw;
+    height: 98.8vh;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -30,6 +30,7 @@
     height: 100%;
     background: #000000c9;
     z-index: 0;
+	overflow: hidden;
 }
 
 .content {
@@ -72,11 +73,11 @@
     position: absolute;
 }
 
-input[type=radio] {
+.carousel-section input[type=radio] {
 	display: none;
 }		
 
-label {
+.content label {
 	width: 50vw;
 	height: 100vh;
 	position: relative;
@@ -84,7 +85,7 @@ label {
 	opacity: 0.15;
 }
 
-label:hover {
+.content label:hover {
 	opacity: 1;
 }
 
@@ -146,7 +147,7 @@ input:last-of-type:checked ~ .content .controls label:last-of-type {
 
 
 /* ARROWS */
-label:before {
+.content label:before {
 	content: "";
 	position: absolute;
 	background: 
@@ -283,7 +284,7 @@ label:before {
 	--img: url('/img/SomosDomos8.jpeg');
 }
 
-.carousel-sectiony:has(input#b6:checked), .thumbnails label[for=b6] {
+.carousel-section:has(input#b6:checked), .thumbnails label[for=b6] {
 	--img: url('/img/SomosDomos10.jpeg');
 }
 
