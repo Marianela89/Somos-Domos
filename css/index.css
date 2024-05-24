@@ -8,6 +8,9 @@
     /*font-size: 57.5%;*/
 }
 
+body{
+    background-color:#F5F5F7; 
+}
 /*body {
     font-family:"Rubik", sans-serif;
     font-weight: 900;
@@ -107,7 +110,8 @@ nav ul li a:hover::after {
 }
 
 
-
+ /*--------SECTION BANNER DOMOS Y REDES SOCIALES-------*/
+ 
   
 .img-domos {
     width: 100%;
@@ -127,6 +131,8 @@ nav ul li a:hover::after {
     width: 100%;
     height: 100%;
   } 
+
+ 
 .banner-titulos{
     margin-top: 70px;
 }
@@ -158,32 +164,6 @@ nav ul li a:hover::after {
     font-weight: 100;
 } 
 
-/*.banner-iconos  {
-    background-color:rgba(1, 37, 52, 0.8);  Fondo azul 
-    color: white; /* Color blanco para los íconos 
-    font-size: 25px;
-    border-radius: 5px;
-    padding: 20px; /* Espacio alrededor de los íconos 
-    position: fixed; /* Fijar el contenedor 
-    top: 230px; /* Colocarlo en la parte superior 
-    right: 80px; /* Alinear a la derecha 
-    margin: 20px; /* Margen para separar del borde de la página 
-    text-align: right; /* Alinear íconos a la derecha 
-    z-index: 9999; /* Asegurar que esté por encima de otros elementos 
-}
-
-.banner-iconos i  {
-    display: block; /* Mostrar los íconos en bloques para que estén uno debajo del otro 
-    margin-bottom: 15px; /* Margen entre los íconos 
-}*/
-
-/*#circle {
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 100%;
-    width: 300px;
-    height: 500px;
-    
-}*/
 .banner-iconos {
     position: absolute;
     top: 230px;
@@ -215,60 +195,78 @@ nav ul li a:hover::after {
 /* ---------------SECTION QUE ES UN DOMO--------------*/
 .info-domos {
     width: 100%;
-    margin-bottom: 10px;
-    padding: 20px;
+    margin-bottom: 0px;
+    padding: 0px;
     box-sizing: border-box;
-    padding-top: 102px;/*32%;*/    
+    padding-top: 102px;/*32%;*/   
+    
 }
 
 .info-domos div {
     width: 100%; 
-    margin-top: 2%;
-    background-color:#fff;/*beige;*/
+    margin-top: 1.9%;
+    background-color:#1f2432;/*beige;*/
 }
 
 .info-domos .grid {
+    background-color: #1f2432;
     display: flex;
     flex-direction: column;
 }
 
 .titulo {
-    font-family:"Rubik", sans-serif;
-    font-weight: 80;
-    font-size: 2.5rem;
-    color: #333;
+    font-family:"Roboto", sans-serif;
+    font-weight: 300;/*270;*/
+    font-size: 5rem;
+    background: linear-gradient(to right, #253ea8 20%, #233885 50%, #1a2451 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: center;
+    transition-timing-function:ease-in-out;
+    transition-delay: 3s;
 }
 
-
-
-
 .descripcion-domo {
-  
+    font-family:"Roboto", sans-serif;
     width: 100%;
     height: 100%;
     text-align:left;
     padding-bottom: 50px;
     margin-top: 50px; /* Espacio entre el subtítulo y la descripción */
-    color: #333;
-    font-family:"Rubik", sans-serif;
-    font-weight: 100;
-    font-size: 1.6rem;
+    color:#dee1e4; /*#666;*/
+    font-weight: 400;
+    font-size: 1.7rem;
+}
+.grid .img-infodomos{
+    width: 40%;
+    height: 30%;
 }
 
-.grid{
-    display: flex;
-    
-}
-
-.text{
-   
-}
   
-/*-------------SECTION 3---------------*/
+/*-------------SECTION 3 CARACTERISTICAS DOMO---------------*/
 
 .caracteristicas-domo{
-  background-color: #fff; 
+    background-image: url(/img/IMG-20200421-WA0016.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin: 0px;
+    margin-top: -20px;
+}
+
+.caracteristicas-domo .overlay{
+    position: absolute;
+ 
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2); /* Negro con 50% de opacidad */
+    pointer-events: none; /* Permitir clics a través de la superposición */
+    z-index: 0;
+  
+}
+.caracteristicas-domo h1{
+    padding-top: 30px;
+    color: #dee1e4;
 }
 
 .caracteristicas-domo div {
@@ -276,13 +274,28 @@ nav ul li a:hover::after {
     text-align: center;
 }
 
-.titulo-cdomo {
-    font-size: 2.5rem;
-    font-family:"Rubik", sans-serif;
+
+.titulo-cdomo, .titulo-cdomos, .aboutus-title {
+    font-family:"Roboto", sans-serif;
+    font-weight: 290;
+    font-size: 4rem;
+    background: linear-gradient(to right, #253ea8 20%, #233885 50%, #1a2451 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: center;
-    color: #333;
+    transition-timing-function:ease-in-out;
+    transition-delay: 3s;
 }
 
+.titulo-cdomos{
+    font-size: 3rem;
+    font-weight: 380;
+}
+.titulo-cdomo{
+    font-weight: 380;
+    background-color: #dee1e4;
+}
 
 .subtitulo-domo, .subtitulodesc-domo {
     font-size: 1.5rem;
@@ -302,7 +315,6 @@ nav ul li a:hover::after {
     font-family:"Rubik", sans-serif; 
     color:#fff;
     margin-top: 0px;
-    
     padding: 0px;
     text-align: left;
 }
@@ -316,21 +328,19 @@ nav ul li a:hover::after {
 
 /* Estilo base de las tarjetas */
 .carousel-inner{
-    background: rgb(1,37,52);
-background: radial-gradient(circle, rgba(1,37,52,1) 0%, rgba(1,29,52,1) 66%);
     border-radius: 10px;
     width: 400px;
     height: auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Negro con 50% de opacidad */
 }
 .tarjeta{
-    background: rgb(1,37,52);
-    background: radial-gradient(circle, rgba(1,37,52,1) 0%, rgba(1,29,52,1) 66%);
     border-radius: 10px;
     /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
     margin: 25px;
     padding: 35px;
     width: 500px;
     height: auto;
+   
 }
 /* Estilo para el contenedor de los diseños */
 .contenedor-flex {
@@ -341,6 +351,7 @@ background: radial-gradient(circle, rgba(1,37,52,1) 0%, rgba(1,29,52,1) 66%);
   /* Estilo para cada contenedor de diseño */
   .contenedor-diseño {
     width: calc(50% - 10px); /* 50% del ancho del contenedor padre menos el espacio entre ellos */
+    
   }
   
 
@@ -363,7 +374,8 @@ background: radial-gradient(circle, rgba(1,37,52,1) 0%, rgba(1,29,52,1) 66%);
 /*---------------SECTION QUIENES SOMOS------------------*/
 
 .quienes-somos{
-    margin-bottom: 50px;
+    background-color: #1f2432;
+    margin-bottom: 0px;
     padding: 20px;
     box-sizing: border-box;
     padding-bottom: 1px;
@@ -376,14 +388,6 @@ background: radial-gradient(circle, rgba(1,37,52,1) 0%, rgba(1,29,52,1) 66%);
     
 }
 
-
-.aboutus-title {
-    font-size: 2.5rem;
-    font-family:"Rubik", sans-serif;
-    text-align: center;
-    color: #333;
-}
-
 .img-abus{
     width: 30%;
     height: auto;
@@ -391,26 +395,26 @@ background: radial-gradient(circle, rgba(1,37,52,1) 0%, rgba(1,29,52,1) 66%);
 }
 
 .desc-aboutus{
+    font-family: "Roboto", sans-serif;
     width: 50%;
     height: auto;
     margin-right: 10%;
     text-align:left;
     padding-bottom: 20px;
     margin-top: 30px; /* Espacio entre el subtítulo y la descripción */
-    color: #333;
-    font-family:"Rubik", sans-serif;
-    font-weight: 100;
-    font-size: 1.3rem;
+    color: #dee1e4;
+    font-weight: 400;
+    font-size: 1.7rem;
 }
 /* quienes somos card*/
 
   .container-qs{
     user-select: none;
-    margin: 30px auto;
+    margin: 20px auto;
     background: #231e39;
     color: #b3b8cd;
     border-radius: 5px;
-    width: 400px;
+    width: 350px;
     text-align: center;
     box-shadow: 0 10px 20px -10px rgba(0,0,0,.75);
   }
@@ -424,7 +428,7 @@ background: radial-gradient(circle, rgba(1,37,52,1) 0%, rgba(1,29,52,1) 66%);
     height: 120px;
     width: 120px;
     border-radius: 50%;
-    margin: 93px 0 0 -175px;
+    margin: 65px 0 0 -15px;
     border: 1px solid #1f1a32;
     padding: 7px;
     background: #292343;
@@ -432,7 +436,7 @@ background: radial-gradient(circle, rgba(1,37,52,1) 0%, rgba(1,29,52,1) 66%);
   .profile-name{
     font-size: 25px;
     font-weight: bold;
-    margin: 27px 0 0 120px;
+    margin: 27px 0 0 0px;
   }
   .about{
     margin-top: 10px;
@@ -453,18 +457,16 @@ background: radial-gradient(circle, rgba(1,37,52,1) 0%, rgba(1,29,52,1) 66%);
     
 /*-------------FOOTER-----------------------*/
 footer{
-    background-color: #012534;
-    color: #fff;
-   
+    background-color: #1f2432;/*#012534;*/
+    color:#dee1e4;
 }
 .footer {
     display: flex;
     justify-content: center; /* Centra las columnas horizontalmente */
     flex-wrap: wrap;
     padding: 20px;
-    background-color: #012534;
-    color: #fff;
-    
+    background-color: #1f2432;/*#012534;*/
+    color: #dee1e4;
 }
 .column {
     flex: 1 1 30%; /* Establece el ancho de las columnas y las hace flexibles */
@@ -502,7 +504,7 @@ footer{
 
 .column a{
     text-decoration: none;
-    color: #fff;
+    color: #dee1e4;
     font-size: 1.3rem;
     margin-bottom: 10px;
     font-family:"Rubik", sans-serif;
@@ -516,11 +518,14 @@ footer{
 .redes-sociales i {
     font-size: 30px;
     height: auto;
-    color: #fff;
+    color: #dee1e4;
     margin-left: 12px;
-    text-align: center;
-    
+    text-align: center;   
 }
+.redes-sociales i:hover{
+    color: #03bfbc;
+}
+
 .desc-footer {
     font-family: "Rubik", sans-serif;
     border-top: 1.5px solid white; /* Línea blanca encima del desc-footer */ 
@@ -528,10 +533,10 @@ footer{
     margin: 0; /* Elimina el margen en todos los lados */
     text-align: center; /* Centra el contenido horizontalmente */
     font-size: 1.2rem;
-    background-color: #012534;
+    background-color:#1f2432;/* #012534;*/
 }
 
-
+/*-----------------------------------------RESPONSIVE------------------------------------------------*/
 
 @media only screen and (max-width: 900px) {
 
@@ -549,17 +554,19 @@ footer{
   }
 
   .titulo {
-    font-size: 2.1rem;
+    font-size: 3rem;
   }
 
   .descripcion-domo {
+    width: 90%;
+    padding-left: 5%;
     font-size: 1.3rem;
     padding-bottom: 10px;
     margin-top: 40px; /* Espacio entre el subtítulo y la descripción */
   }
 
-  .img-infodomos {
-    width: 100%; /* Cambiado para ocupar el 100% del contenedor padre */
+  .grid .img-infodomos{
+    width: 65%; /* Cambiado para ocupar el 100% del contenedor padre */
     height: auto; /* Ajusta la altura automáticamente */
   }
 /*section carasteristicas domo*/
@@ -637,12 +644,13 @@ footer{
     #check:checked ~ .header-navbar-nav {
         left: 0;
     }
+    
     .banner-titulos {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         width: 100%; /* Ancho deseado */
-        margin: 20vh auto; /* Centra horizontalmente */
+        margin: 15vh auto; /* Centra horizontalmente */
         text-align: left; /* Alinea el texto a la izquierda */
       }
       
@@ -650,6 +658,7 @@ footer{
       .banner-titulos h3,
       .banner-titulos p {
         margin: 0; /* Elimina el margen por defecto */
+        padding: 50% auto;
       }
       
       .banner-titulos h1 {
@@ -671,8 +680,7 @@ footer{
       
       
       .banner-iconos {
-
-        top: 75%;
+        top: 80%;
         left: 50%;
         transform: translate(-50%, -50%);
         display: flex;
@@ -682,8 +690,7 @@ footer{
         position: absolute;
         z-index: 9999;
         background-color: rgba(0, 0, 0, 0.0);
-        border-radius: 10px;
-        
+        border-radius: 10px; 
       }
       
       .banner-iconos a {
@@ -708,7 +715,7 @@ footer{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        margin-top: 65%;
+        margin-top: 50%;
     }
     
     .chevron i {
@@ -735,6 +742,25 @@ footer{
         justify-content: center;
       }
    /*fin parte carrousel tipo domos*/
+
+   /*------------PARTE QUIENES SOMOS-------------*/
+    .quienes-somos .about-us {
+       display: flex;
+       flex-direction: column-reverse;
+       align-items: center;
+    }
+    .desc-aboutus{
+        width: 100%;
+        height: auto;
+        padding-left: 4vh;
+        font-size: 2.2vh;
+        align-items: center;
+        text-align: left;
+    }
+
+
+
+/*------------FINAL PARTE QUIENES SOMOS-------------*/
 }
 
 
@@ -757,11 +783,11 @@ footer{
       margin-left: 20px; /* Añade espacio entre la imagen y el texto */
     }
 
- 
-
-
-    
     
 
   }
 
+  @media (min-width: 500px) {
+    
+    
+  }

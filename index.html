@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="shortcut icon" href="img/logo1-PhotoRoom.png-PhotoRoom.png" type="image/x-icon"/>
-    <title>Inicio - Somos Domos</title>
+    <title>Somos Domos</title>
 </head>
 <body>
      <!-- INICIO HEADER -->
@@ -52,32 +53,35 @@
       <!-- FIN HEADER -->
       
     <main>
-       <section>
-        <div class="img-banner">
-          <div class="img-domos">
-           <img src="img/perro1.jpg" alt="imagen de un domo" class="img-domos">  
-          </div> 
-          <div class="banner-titulos">
-            <h1>SOMOS</h1>
-            <h3>CONSTRUCCIÓN</h3>
-            <p>Elegí el diseño. Nosotros hacemos el resto.</p>
+      <section>
+        <div class="cont-section">
+          <div class="img-banner">
+            <div class="img-domos">
+              <img src="img/perro1.jpg" alt="imagen de un domo" class="img-domos">
+            </div>
+            <div class="banner-titulos">
+              <h1>SOMOS</h1>
+              <h3>CONSTRUCCIÓN</h3>
+              <p>Elegí el diseño. Nosotros hacemos el resto.</p>
+            </div>
           </div>
-        </div>  
-        <div class="banner-iconos">
-          <a href="https://www.facebook.com/profile.php?id=100035172595599&locale=es_LA" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
-          <a href="https://www.instagram.com/somosdomos/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://api.whatsapp.com/send?phone=2916429369" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <div class="banner-iconos">
+            <a href="https://www.facebook.com/profile.php?id=100035172595599&locale=es_LA" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://www.instagram.com/somosdomos/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=2916429369" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          </div>
+          <div class="chevron">
+            <i class="fa-solid fa-chevron-down"></i>
+          </div>
         </div>
-        <div class="chevron">
-          <i class="fa-solid fa-chevron-down"></i>
-        </div>
-       </section>  
+      </section>
+      
        
        <section class="info-domos">
           <div class="grid">
-             <img src="img/SomosDomos5.jpeg" class="img-infodomos">
+             <img src="img/SomosDomos15.jpeg" class="img-infodomos">
            <div class="text">
-            <h1 class="titulo">¿QUÉ ES UN DOMO?</h1>
+            <h1 class="titulo animate__animated animate__fadeIn">¿QUÉ ES UN DOMO?</h1>
              <p class="descripcion-domo">Un DOMO GEODÉSICO es una estructura que no depende de columnas
                                          internas para su soporte. Su diseño se compone de triángulos que
                                          convergen para formar una cúpula, distribuyendo el peso de manera
@@ -91,10 +95,11 @@
        </section>
 
    <section class="caracteristicas-domo">
+    <div class="overlay"></div>
         <h1 class="titulo-cdomo">ELEGÍ EL QUE MÁS SE ADAPTE A TUS NECESIDADES</h1>
       <div class="contenedor-flex">
        <div class="contenedor-diseño">
-        <h1 class="titulo-cdomo">DISEÑO OVAL</h1>
+        <h1 class="titulo-cdomos">DISEÑO OVAL</h1>
          <div class="contenedor">
           <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -195,12 +200,11 @@
        </div>
 
 <!-- DISEÑO DIAMANTE -->
+
       <div class="contenedor-diseño">
-       
-          <h1 class="titulo-cdomo">DISEÑO DIAMANTE</h1>
-         <div class="contenedor">
-          
-           <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <h1 class="titulo-cdomos">DISEÑO DIAMANTE</h1>
+         <div class="contenedor"> 
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -263,7 +267,7 @@
                  </div>
                 <img src="img/Frecuencias/domo4mts-oval.png" alt="New York">
               </div>
-            </div>
+             </div>
           
               <div class="item">
                 <div class="tarjeta">
@@ -282,23 +286,22 @@
                 <img src="img/Frecuencias/domo4mts-oval-l2.png" alt="Chicago">
                </div>
               </div> 
-            </div>
-
-             <!-- Left and right controls -->
-             <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
            
+
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+          </div>
+        </div>  
           </div> 
        </div>  
-      </div>
-        
+      </div>   
   </section>
 
 
@@ -373,7 +376,7 @@
 
     </main>  
 
-    <footer>
+    <footer style="min-height: 35vh">
      <div class="footer"> 
       <div class="column">
           <div class="logo-footer">
