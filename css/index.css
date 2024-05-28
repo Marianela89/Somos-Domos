@@ -198,7 +198,7 @@ nav ul li a:hover::after {
     margin-bottom: 0px;
     padding: 0px;
     box-sizing: border-box;
-    padding-top: 20.5%;   
+    padding-top: 7.5%;   
     
 }
 
@@ -783,17 +783,17 @@ footer{
       flex: 1; /* Para que ocupe todo el espacio disponible restante */
       margin-left: 20px; /* Añade espacio entre la imagen y el texto */
     }
-
-    
+   
+   
 
   }
 
-  @media (max-width: 480px) {
+  @media  ( max-width: 480px) {
     
     .chevron{
-        margin-top: 65%;
+        margin-top: 55%;
     }
-    .info-domos .grid{
-        padding-top:10%;
-    }
+   .info-domos{
+    padding-top: 10%;
+   }
   }
