@@ -414,7 +414,7 @@ nav ul li a:hover::after {
     background: #231e39;
     color: #b3b8cd;
     border-radius: 5px;
-    width: 350px;
+    width: 340px;
     text-align: center;
     box-shadow: 0 10px 20px -10px rgba(0,0,0,.75);
   }
@@ -757,9 +757,10 @@ footer{
         align-items: center;
         text-align: left;
     }
-
-
-
+    .container-qs{
+        width: 280px;
+        height: auto;
+    }
 /*------------FINAL PARTE QUIENES SOMOS-------------*/
 }
 
@@ -787,7 +788,9 @@ footer{
 
   }
 
-  @media (min-width: 500px) {
+  @media (max-width: 480px) {
     
-    
+    .chevron{
+        margin-top: 60%;
+    }
   }
