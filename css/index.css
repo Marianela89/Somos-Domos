@@ -198,7 +198,7 @@ nav ul li a:hover::after {
     margin-bottom: 0px;
     padding: 0px;
     box-sizing: border-box;
-    padding-top: 102px;/*32%;*/   
+    padding-top: 20.5%;   
     
 }
 
@@ -791,6 +791,6 @@ footer{
   @media (max-width: 480px) {
     
     .chevron{
-        margin-top: 80%;
+        margin-top: 65%;
     }
   }
