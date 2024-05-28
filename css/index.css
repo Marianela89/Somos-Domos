@@ -793,7 +793,7 @@ footer{
     .chevron{
         margin-top: 65%;
     }
-    .info-domos{
-        padding-top:0%;
+    .info-domos .grid{
+        padding-top:10%;
     }
   }
