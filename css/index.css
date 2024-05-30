@@ -198,7 +198,7 @@ nav ul li a:hover::after {
     margin-bottom: 0px;
     padding: 0px;
     box-sizing: border-box;
-    padding-top: 7.5%;   
+    padding-top: 16vh;   
     
 }
 
@@ -538,8 +538,11 @@ footer{
 
 /*-----------------------------------------RESPONSIVE------------------------------------------------*/
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 500px) {
 
+ .cont-section{
+    overflow: hidden;
+ }    
 /*section que es un domo*/
 .info-domos .grid {
     display: flex;
