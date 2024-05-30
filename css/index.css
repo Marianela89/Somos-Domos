@@ -796,7 +796,9 @@ footer{
     .chevron{
         margin-top: 65%;
     }
-    .info-domos {
-      padding-top: 0px;
-   }
+   .info-domos {
+   
+    padding-top: 6vh;   
+    
+}
   }
