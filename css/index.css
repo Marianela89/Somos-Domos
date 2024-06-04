@@ -794,11 +794,11 @@ footer{
   @media  ( max-width: 280px) {
     
     .chevron{
-        margin-top: 55%;
+        margin-top: 75%;
     }
    .info-domos {
    
-    padding-top: -10vh;   
+    padding-bottom: 10vh;   
     
 }
   }
