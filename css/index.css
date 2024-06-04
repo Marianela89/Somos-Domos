@@ -791,7 +791,7 @@ footer{
 
   }
 
-  @media  ( max-width: 280px) {
+  @media  ( max-width: 480px) {
     
     .chevron{
         margin-top: 75%;
