@@ -796,10 +796,12 @@ footer{
     .chevron{
         margin-top: 75%;
     }
-   .info-domos {
-   
-    padding-bottom: -10vh;
-   
+ .info-domos {
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    padding-top: 0vh;   
     
 }
   }
