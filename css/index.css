@@ -565,9 +565,9 @@ footer{
   }
 
   .descripcion-domo {
-    width: 100%;
+    width: 96%;
     height: auto;
-    padding-left: 4vh;
+    padding-left: 2vh;
     font-size: 1.3rem;
     align-items: center;
     text-align: left;
