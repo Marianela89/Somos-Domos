@@ -247,7 +247,7 @@ nav ul li a:hover::after {
 /*-------------SECTION 3 CARACTERISTICAS DOMO---------------*/
 
 .caracteristicas-domo{
-    background-image: url(/../img/IMG-20200421-WA0016.jpg);
+    background-image: url(/../../img/IMG-20200421-WA0016.jpg);
     background-size: cover;
     background-position: center center;
     margin: 0px;
