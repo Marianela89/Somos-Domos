@@ -340,7 +340,7 @@ nav ul li a:hover::after {
     border-radius: 10px;
     /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
     margin: 25px;
-    padding: 35px;
+    padding: 15px;
     padding-top: 0px;
     width: 500px;
     height: auto;
@@ -748,6 +748,9 @@ footer{
     .tarjeta {
         width: 100%; 
         max-width: 500px; 
+    }
+    .tarjeta img {
+        padding-right: 6vh;
     }
     .contenedor-flex {
         display: block;
