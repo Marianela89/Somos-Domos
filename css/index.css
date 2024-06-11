@@ -370,8 +370,8 @@ nav ul li a:hover::after {
 
 
 .carousel-inner img {
-    height: 150px !important;
-    width: 200px !important; 
+    height: 180px !important;
+    width: 220px !important; 
     margin-top: 20px;   
 }
 
@@ -742,9 +742,12 @@ footer{
     }
 
     /*parte carrousel tipo domos*/
+    .subtitulo-domo{
+        padding-right: 6vh;
+    }
     .tarjeta {
         width: 100%; 
-        max-width: 400px; 
+        max-width: 500px; 
     }
     .contenedor-flex {
         display: block;
