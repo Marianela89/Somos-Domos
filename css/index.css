@@ -340,7 +340,7 @@ nav ul li a:hover::after {
     border-radius: 10px;
     /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
     margin: 25px;
-    padding: 15px;
+    padding: 35px;
     padding-top: 0px;
     width: 500px;
     height: auto;
@@ -370,8 +370,8 @@ nav ul li a:hover::after {
 
 
 .carousel-inner img {
-    height: 180px !important;
-    width: 220px !important; 
+    height: 150px !important;
+    width: 200px !important; 
     margin-top: 20px;   
 }
 
