@@ -258,8 +258,8 @@ nav ul li a:hover::after {
     position: absolute;
  
     width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.2); /* Negro con 50% de opacidad */
+    height: 129%;
+    background-color: rgba(0, 0, 0, 0.4); /* Negro con 50% de opacidad */
     pointer-events: none; /* Permitir clics a través de la superposición */
     z-index: 0;
   
@@ -358,7 +358,7 @@ nav ul li a:hover::after {
     
   }
   
-
+ 
 
 
 /*-----------------------------SECTION 4---------------------------------*/
@@ -568,7 +568,7 @@ footer{
     width: 96%;
     height: auto;
     padding-left: 2vh;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     align-items: center;
     text-align: left;
 
@@ -585,7 +585,7 @@ footer{
   }
 /*section carasteristicas domo*/
 .titulo-cdomo {
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 
@@ -760,6 +760,13 @@ footer{
       .contenedor-diseño {
         width: calc(100% - 10px); /*50% del ancho del contenedor padre menos el espacio entre ellos */
         justify-content: center;
+      }
+
+      .caracteristicas-domo .overlay{
+        position: absolute;
+     
+        width: 100%;
+        height: 252%;
       }
    /*fin parte carrousel tipo domos*/
 
